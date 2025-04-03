@@ -48,23 +48,15 @@ On peut alors se connecter à la machine en lancant la commande `ssh de-zoomcamp
 * bash anaconda.....sh
 2/ installer docker
 * apt install docker.io
-* pour éviter d'avoir à taper sudo systématiquement :
-** sudo groupadd docker
+* pour éviter d'avoir à taper sudo systématiquement :  
+** sudo groupadd docker  
 ** sudo gpasswd -a $USER docker
-
-
+** sudo  service docker restart
+se reconnnecter en ssh à nouveau
 
 3/ Cloner le répertoire github
 
- 
- GCP 
-# 1/ Create project
-# 2/ generate SSH keys (on ubuntu)
-
-# 3/ Create VM Enable compute engine API
-# 4/ Connect to VM with SSH
-# 5/ Install Anaconda
-# wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh 
+  
 
 
 
